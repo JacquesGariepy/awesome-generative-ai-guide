@@ -3,8 +3,8 @@
 ## 📊 Vue d'Ensemble
 
 **Date de dernière mise à jour**: 2024-11-08
-**Version**: 0.1.0 (Early Access)
-**Progression globale**: ~4% (1/25 chapitres terminés)
+**Version**: 0.2.0 (Early Access)
+**Progression globale**: ~8% (2/25 chapitres terminés)
 
 ---
 
@@ -73,6 +73,62 @@
 - ✅ Logging et audit trail
 - ✅ Prêt pour production
 
+### Chapitre 14: RLHF et PPO Training - TERMINÉ ✅
+
+**Fichiers créés**:
+1. `book/chapters/chapter_14_rlhf_ppo_training.md` (Partie 1)
+2. `book/chapters/chapter_14_part2_ppo_implementation.md` (Partie 2)
+3. `book/chapters/chapter_14_part3_dpo_projects.md` (Partie 3)
+4. `book/chapters/chapter_14_part4_conclusion.md` (Partie 4)
+
+**Statistiques**:
+- **Lignes de code**: 1200+ lignes Python
+- **Classes**: 20+ classes complètes
+- **Projets**: 2 projets pratiques end-to-end
+- **Pages équivalentes**: ~180 pages
+- **Temps de développement**: Session complète
+
+**Contenu technique**:
+
+#### Partie 1: Théorie RLHF et Fondations
+- ✅ Pipeline RLHF complet (SFT → Reward Model → PPO)
+- ✅ `AlignmentComparison` - Compare SFT, RLHF, DPO, Constitutional AI
+- ✅ `RLHFComponents` - Architecture complète avec 3 modèles
+- ✅ Explication KL penalty et reward hacking
+- ✅ Pseudocode training loop complet
+
+#### Partie 2: PPO Implementation
+- ✅ `PPOTheory` - Théorie mathématique (clipping, advantages, GAE)
+- ✅ `GAEComputer` - Generalized Advantage Estimation
+- ✅ `PPOLoss` - Policy loss, value loss, entropy
+- ✅ `PPOTrainer` - Training loop complet
+  - Rollout generation
+  - Reward computation avec KL penalty
+  - PPO updates multi-epochs
+  - Adaptive KL coefficient
+
+#### Partie 3: DPO et Projets
+- ✅ `DPOTheory` - Alternative à RLHF (plus simple)
+- ✅ `DPOLoss` - Direct preference optimization loss
+- ✅ `DPOTrainer` - Training avec concatenated forward
+- ✅ Projet 1: Pipeline RLHF complet avec TRL
+- ✅ Projet 2: Pipeline DPO simplifié
+
+#### Partie 4: Best Practices et Conclusion
+- ✅ `DataPreparationBestPractices` - Guidelines pour données
+- ✅ `RLHFMonitoring` - Métriques clés et warning signs
+- ✅ Debugging checklist complet
+- ✅ Comparaison finale RLHF vs DPO
+- ✅ Ressources et papers fondamentaux
+
+**Caractéristiques du code**:
+- ✅ Type hints Python 3.10+
+- ✅ Docstrings détaillées
+- ✅ Architecture production-ready
+- ✅ 2 pipelines complets (RLHF + DPO)
+- ✅ Best practices et monitoring
+- ✅ Compatible avec HuggingFace TRL
+
 ---
 
 ## 📋 Tâches Restantes
@@ -86,12 +142,12 @@
 - [ ] Réorganiser le contenu
 - [ ] Mettre à jour la TOC
 
-#### 2. Compléter Chapitre 14: RLHF avec PPO
-- [ ] Reward modeling détaillé
-- [ ] PPO implementation complète
-- [ ] TRL (Transformer Reinforcement Learning)
-- [ ] DPO (Direct Preference Optimization)
-- [ ] Projet: Pipeline RLHF end-to-end
+#### 2. Compléter Chapitre 14: RLHF avec PPO ✅ TERMINÉ
+- [x] Reward modeling détaillé
+- [x] PPO implementation complète
+- [x] TRL (Transformer Reinforcement Learning)
+- [x] DPO (Direct Preference Optimization)
+- [x] Projet: Pipeline RLHF end-to-end
 
 #### 3. Créer Projet Capstone Multi-Chapitres
 - [ ] Architecture système complète
@@ -165,10 +221,10 @@
 ## 📈 Métriques du Projet
 
 ### Contenu Actuel
-- **Chapitres terminés**: 1/25 (4%)
-- **Projets terminés**: 1/15 (7%)
-- **Code Python**: ~1,000 lignes
-- **Pages écrites**: ~150 pages
+- **Chapitres terminés**: 2/25 (8%)
+- **Projets terminés**: 5/15 (33%) - Ch.14: 2 projets, Ch.16: 3 projets
+- **Code Python**: ~2,200 lignes
+- **Pages écrites**: ~330 pages
 
 ### Objectifs Finaux
 - **Chapitres**: 25
