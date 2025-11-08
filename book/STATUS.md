@@ -3,8 +3,8 @@
 ## 📊 Vue d'Ensemble
 
 **Date de dernière mise à jour**: 2024-11-08
-**Version**: 0.2.0 (Early Access)
-**Progression globale**: ~8% (2/25 chapitres terminés)
+**Version**: 0.3.0 (Early Access)
+**Progression globale**: ~12% (3/25 chapitres terminés)
 
 ---
 
@@ -129,6 +129,63 @@
 - ✅ Best practices et monitoring
 - ✅ Compatible avec HuggingFace TRL
 
+### Chapitre 7: Fine-tuning Techniques et Pratiques - TERMINÉ ✅
+
+**Fichiers créés**:
+1. `book/chapters/chapter_07_finetuning.md` (Partie 1)
+2. `book/chapters/chapter_07_part2_data_hyperparams.md` (Partie 2)
+3. `book/chapters/chapter_07_part3_hyperparams_overfitting.md` (Partie 3)
+4. `book/chapters/chapter_07_part4_evaluation_project.md` (Partie 4)
+
+**Statistiques**:
+- **Lignes de code**: 1500+ lignes Python
+- **Classes**: 25+ classes complètes
+- **Projets**: 1 projet pratique complet (Fine-tune Llama 2 pour Q&A)
+- **Pages équivalentes**: ~200 pages
+- **Temps de développement**: Session complète
+
+**Contenu technique**:
+
+#### Partie 1: Introduction et Choix d'Approche
+- ✅ `AdaptationApproach` - Comparaison 6 approches (Prompt Engineering → Pré-training)
+- ✅ `ApproachComparison` - Critères de décision (coût, temps, performance)
+- ✅ `AdaptationDecisionTree` - Arbre de décision automatique
+- ✅ `FineTuningTypes` - Full, LoRA, QLoRA, Prefix, Adapter
+- ✅ Comparaison détaillée avec tableaux de décision
+
+#### Partie 2: Préparation des Données
+- ✅ `TrainingExample` et `DatasetFormats` - 3 formats (completion, instruction, chat)
+- ✅ Format Alpaca-style pour instruction following
+- ✅ `DataQualityChecker` - 8+ vérifications de qualité automatiques
+- ✅ Detection: longueur, répétitions, diversité vocabulaire, JSON valide
+- ✅ Génération de rapports de qualité détaillés
+
+#### Partie 3: Hyperparamètres et Prévention Overfitting
+- ✅ `HyperparameterConfig` - Configuration complète (20+ paramètres)
+- ✅ `HyperparameterPresets` - 6 presets (quick, full, LoRA, QLoRA, small/large dataset)
+- ✅ Estimation temps de training
+- ✅ `OverfittingDetector` - Détection automatique avec 4 signaux
+- ✅ `RegularizationStrategies` - 8 stratégies (Weight Decay, Dropout, Early Stopping, etc.)
+- ✅ Recommandations personnalisées basées sur signaux
+
+#### Partie 4: Évaluation et Projet Pratique
+- ✅ `MetricsCalculator` - 6 métriques (Perplexity, BLEU, ROUGE-1/2/L, Exact Match, F1)
+- ✅ `MetricsComparison` - Guide métriques par tâche (6 tâches)
+- ✅ **Projet complet**: Fine-tuning Llama 2 7B sur SQuAD
+  - `Llama2QATrainer` - Pipeline complet avec HuggingFace Trainer
+  - `QADatasetPreparator` - Préparation automatique SQuAD
+  - `Llama2QAInference` - Inférence production-ready
+- ✅ Best practices checklist (6 sections, 30+ items)
+
+**Caractéristiques du code**:
+- ✅ Type hints Python 3.10+
+- ✅ Docstrings complètes avec exemples
+- ✅ Architecture modulaire et réutilisable
+- ✅ Compatible HuggingFace Transformers
+- ✅ Production-ready avec error handling
+- ✅ Presets prêts à l'emploi
+- ✅ Pipeline end-to-end Llama 2
+
 ---
 
 ## 📋 Tâches Restantes
@@ -142,14 +199,22 @@
 - [ ] Réorganiser le contenu
 - [ ] Mettre à jour la TOC
 
-#### 2. Compléter Chapitre 14: RLHF avec PPO ✅ TERMINÉ
+#### 2. Compléter Chapitre 7: Fine-tuning Techniques ✅ TERMINÉ
+- [x] Comparaison approches (Prompt Engineering → Fine-tuning)
+- [x] Préparation des données (formats, quality checking)
+- [x] Hyperparamètres et presets
+- [x] Prévention overfitting (détection automatique)
+- [x] Métriques d'évaluation (Perplexity, BLEU, ROUGE, F1)
+- [x] Projet: Fine-tune Llama 2 7B sur SQuAD
+
+#### 3. Compléter Chapitre 14: RLHF avec PPO ✅ TERMINÉ
 - [x] Reward modeling détaillé
 - [x] PPO implementation complète
 - [x] TRL (Transformer Reinforcement Learning)
 - [x] DPO (Direct Preference Optimization)
 - [x] Projet: Pipeline RLHF end-to-end
 
-#### 3. Créer Projet Capstone Multi-Chapitres
+#### 4. Créer Projet Capstone Multi-Chapitres
 - [ ] Architecture système complète
 - [ ] Pipeline de données
 - [ ] Training et fine-tuning
@@ -161,7 +226,7 @@
 
 ### Priorité MOYENNE 🟡
 
-#### 4. Créer Chapitres Manquants (~12 chapitres)
+#### 5. Créer Chapitres Manquants (~12 chapitres)
 **Chapitres à créer**:
 - [ ] Ch. 1: Introduction à l'IA Générative
 - [ ] Ch. 2: Architectures Transformers
@@ -177,7 +242,7 @@
 - [ ] Ch. 12: Inférence Optimisée
 - [ ] Plus 8 autres chapitres...
 
-#### 5. Écrire les 15 Projets Pratiques
+#### 6. Écrire les 15 Projets Pratiques
 **Projets à créer**:
 - [ ] Projet 1: Tokenizer BPE from scratch
 - [ ] Projet 2: Transformer from scratch
@@ -197,19 +262,19 @@
 
 ### Priorité BASSE 🟢
 
-#### 6. Nettoyage et Organisation
+#### 7. Nettoyage et Organisation
 - [ ] Retirer TOC des chapitres 2, 4, 5, 6, 7, 8, 13
 - [ ] Uniformiser le format markdown
 - [ ] Vérifier les liens internes
 - [ ] Optimiser les images/diagrammes
 
-#### 7. Contenu Éditorial
+#### 8. Contenu Éditorial
 - [ ] Écrire introduction générale
 - [ ] Écrire préface
 - [ ] Écrire conclusion générale
 - [ ] Remerciements
 
-#### 8. Annexes
+#### 9. Annexes
 - [ ] Créer glossaire complet (500+ termes)
 - [ ] Créer bibliographie annotée (100+ références)
 - [ ] Créer index alphabétique
@@ -221,10 +286,10 @@
 ## 📈 Métriques du Projet
 
 ### Contenu Actuel
-- **Chapitres terminés**: 2/25 (8%)
-- **Projets terminés**: 5/15 (33%) - Ch.14: 2 projets, Ch.16: 3 projets
-- **Code Python**: ~2,200 lignes
-- **Pages écrites**: ~330 pages
+- **Chapitres terminés**: 3/25 (12%)
+- **Projets terminés**: 6/15 (40%) - Ch.7: 1 projet, Ch.14: 2 projets, Ch.16: 3 projets
+- **Code Python**: ~3,700 lignes
+- **Pages écrites**: ~530 pages
 
 ### Objectifs Finaux
 - **Chapitres**: 25
