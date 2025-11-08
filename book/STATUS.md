@@ -3,8 +3,8 @@
 ## 📊 Vue d'Ensemble
 
 **Date de dernière mise à jour**: 2024-11-08
-**Version**: 0.3.0 (Early Access)
-**Progression globale**: ~12% (3/25 chapitres terminés)
+**Version**: 0.4.0 (Early Access)
+**Progression globale**: ~16% (4/25 chapitres terminés)
 
 ---
 
@@ -186,6 +186,66 @@
 - ✅ Presets prêts à l'emploi
 - ✅ Pipeline end-to-end Llama 2
 
+### Chapitre 8: LoRA et Parameter-Efficient Fine-Tuning (PEFT) - TERMINÉ ✅
+
+**Fichiers créés**:
+1. `book/chapters/chapter_08_lora_peft.md` (Partie 1)
+2. `book/chapters/chapter_08_part2_advanced_peft.md` (Partie 2)
+3. `book/chapters/chapter_08_part3_qlora_quantization.md` (Partie 3)
+4. `book/chapters/chapter_08_part4_qlora_project.md` (Partie 4)
+
+**Statistiques**:
+- **Lignes de code**: 1600+ lignes Python
+- **Classes**: 20+ classes complètes
+- **Projets**: 1 projet pratique complet (QLoRA fine-tuning Llama 2 7B)
+- **Pages équivalentes**: ~220 pages
+- **Temps de développement**: Session complète
+
+**Contenu technique**:
+
+#### Partie 1: Théorie et Introduction LoRA
+- ✅ `MemoryRequirements` - Calcul besoins mémoire (Full FT vs LoRA vs QLoRA)
+- ✅ `PEFTComparison` - Comparaison 6 approches (Full, LoRA, QLoRA, Adapters, Prefix, P-Tuning)
+- ✅ `LoRATheory` - Théorie mathématique (low-rank decomposition)
+- ✅ `LoRALayer` - Implémentation from scratch
+- ✅ `LinearWithLoRA` - Wrapper pour nn.Linear
+- ✅ Merge LoRA weights (W' = W + BA)
+
+#### Partie 2: Techniques PEFT Avancées
+- ✅ `AdapterLayer` - Bottleneck architecture (down → ReLU → up)
+- ✅ `PrefixEncoder` - Prefix tuning avec MLP
+- ✅ `IA3Layer` - Element-wise scaling (ultra-léger)
+- ✅ `ComprehensivePEFTComparison` - Comparaison exhaustive 7 méthodes
+  - Full FT, LoRA, QLoRA, Adapters, Prefix, P-Tuning v2, IA3
+- ✅ Recommandations par scénario (GPU, dataset, use case)
+
+#### Partie 3: QLoRA et Quantization
+- ✅ `QuantizationExplainer` - Types de précision (FP32/FP16/BF16/INT8/NF4)
+- ✅ `NF4Quantizer` - 4-bit NormalFloat implementation complète
+  - Quantization et dequantization
+  - Block-wise quantization (plus précis)
+- ✅ `DoubleQuantization` - Quantize scales aussi (innovation QLoRA)
+- ✅ Calculs mémoire (7B: 28GB → 3.5GB avec NF4!)
+
+#### Partie 4: Projet Pratique QLoRA
+- ✅ **Projet complet**: Fine-tune Llama 2 7B avec QLoRA
+  - `QLoRAConfig` - Configuration complète (quantization + LoRA)
+  - `QLoRAModelLoader` - Chargement 4-bit avec BitsAndBytes
+  - `QLoRAPEFTConfig` - Application LoRA avec PEFT library
+  - `QLoRATrainer` - Pipeline complet HuggingFace Trainer
+  - `QLoRAInference` - Inférence avec adapters
+  - `LoRAMerger` - Merge adapters pour déploiement
+- ✅ Best practices (rank, alpha, target modules, hyperparams)
+- ✅ Troubleshooting guide (OOM, loss, overfitting)
+
+**Caractéristiques du code**:
+- ✅ Type hints Python 3.10+
+- ✅ Implémentations from scratch (LoRA, NF4)
+- ✅ Compatible HuggingFace PEFT + bitsandbytes
+- ✅ Production-ready QLoRA pipeline
+- ✅ Fine-tune 7B sur 8GB VRAM!
+- ✅ Merge et déploiement inclus
+
 ---
 
 ## 📋 Tâches Restantes
@@ -286,10 +346,10 @@
 ## 📈 Métriques du Projet
 
 ### Contenu Actuel
-- **Chapitres terminés**: 3/25 (12%)
-- **Projets terminés**: 6/15 (40%) - Ch.7: 1 projet, Ch.14: 2 projets, Ch.16: 3 projets
-- **Code Python**: ~3,700 lignes
-- **Pages écrites**: ~530 pages
+- **Chapitres terminés**: 4/25 (16%)
+- **Projets terminés**: 7/15 (47%) - Ch.7: 1 projet, Ch.8: 1 projet, Ch.14: 2 projets, Ch.16: 3 projets
+- **Code Python**: ~5,300 lignes
+- **Pages écrites**: ~750 pages
 
 ### Objectifs Finaux
 - **Chapitres**: 25
