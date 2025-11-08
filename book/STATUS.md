@@ -3,8 +3,8 @@
 ## 📊 Vue d'Ensemble
 
 **Date de dernière mise à jour**: 2024-11-08
-**Version**: 0.4.0 (Early Access)
-**Progression globale**: ~16% (4/25 chapitres terminés)
+**Version**: 0.5.0 (Early Access)
+**Progression globale**: ~20% (5/25 chapitres terminés)
 
 ---
 
@@ -246,6 +246,74 @@
 - ✅ Fine-tune 7B sur 8GB VRAM!
 - ✅ Merge et déploiement inclus
 
+### Chapitre 9: Instruction Tuning - TERMINÉ ✅
+
+**Fichiers créés**:
+1. `book/chapters/chapter_09_instruction_tuning.md` (Partie 1)
+2. `book/chapters/chapter_09_part2_chat_templates.md` (Partie 2)
+3. `book/chapters/chapter_09_part3_project.md` (Partie 3)
+
+**Statistiques**:
+- **Lignes de code**: 1400+ lignes Python
+- **Classes**: 18+ classes complètes
+- **Projets**: 1 projet pratique complet (Instruction tuning Llama 2 avec loss masking)
+- **Pages équivalentes**: ~180 pages
+- **Temps de développement**: Session complète
+
+**Contenu technique**:
+
+#### Partie 1: Formats de Données
+- ✅ `AlpacaExample` - Format Stanford Alpaca (instruction/input/output)
+- ✅ `ShareGPTExample` - Format conversations multi-turn
+- ✅ `OpenAIExample` - Format OpenAI Chat Completion API
+- ✅ `InstructionDatasetFormatter` - Auto-detect et formatage universel
+- ✅ Datasets populaires (Alpaca, Alpaca GPT-4, ShareGPT, Dolly, FLAN)
+- ✅ `SelfInstructGenerator` - Génération automatique d'instructions (Self-Instruct)
+- ✅ `InstructionAugmenter` - Augmentation de données (paraphrases, variantes)
+
+#### Partie 2: Chat Templates et Multi-Turn
+- ✅ `ChatFormatter` - Formatage universel pour 5 formats populaires
+  - Llama 2: [INST]...[/INST]
+  - ChatML: <|im_start|>...<|im_end|>
+  - Alpaca: ### Instruction: ... ### Response:
+  - Vicuna: USER: ... ASSISTANT:
+  - Zephyr: <|system|>...<|user|>...<|assistant|>
+- ✅ `MultiTurnConversationProcessor` - Gestion conversations multi-tour
+  - Context window management
+  - Intelligent truncation
+  - Training examples avec contexte cumulatif
+- ✅ `ConversationQualityChecker` - Validation qualité
+  - Alternance user/assistant
+  - Détection répétitions
+  - Stats de longueur
+- ✅ Best practices complètes (data quality, training strategy, evaluation)
+
+#### Partie 3: Projet Pratique
+- ✅ **Projet complet**: Instruction tuning Llama 2 7B
+  - `InstructionTuningConfig` - Configuration complète
+  - `InstructionDataCollator` - Loss masking (crucial!)
+    * Compute loss SEULEMENT sur response
+    * Ignore instruction et input (labels=-100)
+  - `InstructionDatasetProcessor` - Processing avec masking automatique
+  - `InstructionTuningTrainer` - Pipeline complet QLoRA
+  - `InstructionTunedInference` - Inférence production-ready
+  - `InstructionTuningEvaluator` - Évaluation helpfulness
+- ✅ Best practices détaillées
+  - Quality > Quantity
+  - Diversité des tâches (10+ types)
+  - Epochs appropriés (1-3)
+  - Éviter catastrophic forgetting
+  - Loss masking essentiel
+
+**Caractéristiques du code**:
+- ✅ Type hints Python 3.10+
+- ✅ Loss masking automatique (innovation clé)
+- ✅ Compatible 5 formats de chat
+- ✅ Multi-turn conversation support
+- ✅ Self-Instruct generation
+- ✅ Quality validation automatique
+- ✅ Pipeline production-ready complet
+
 ---
 
 ## 📋 Tâches Restantes
@@ -346,10 +414,10 @@
 ## 📈 Métriques du Projet
 
 ### Contenu Actuel
-- **Chapitres terminés**: 4/25 (16%)
-- **Projets terminés**: 7/15 (47%) - Ch.7: 1 projet, Ch.8: 1 projet, Ch.14: 2 projets, Ch.16: 3 projets
-- **Code Python**: ~5,300 lignes
-- **Pages écrites**: ~750 pages
+- **Chapitres terminés**: 5/25 (20%)
+- **Projets terminés**: 8/15 (53%) - Ch.7: 1 projet, Ch.8: 1 projet, Ch.9: 1 projet, Ch.14: 2 projets, Ch.16: 3 projets
+- **Code Python**: ~6,700 lignes
+- **Pages écrites**: ~930 pages
 
 ### Objectifs Finaux
 - **Chapitres**: 25
