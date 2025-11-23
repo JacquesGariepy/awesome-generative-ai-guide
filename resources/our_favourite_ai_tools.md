@@ -4,23 +4,188 @@ Welcome to our curated list of favourite AI tools. This resource highlights a va
 
 ---
 
-# AI Model Providers  
+# AI Model Providers (Updated 2024-2025)
 *For foundational AI model providers specializing in language, vision, or multimodal models.*
 
-## Anthropic
+## Anthropic - Claude 4 Series (2025)
 
-Founded in 2021 by former OpenAI executives Dario and Daniela Amodei, **Anthropic** is an AI safety and research company based in San Francisco. The company focuses on developing reliable and interpretable AI systems with a strong emphasis on safety and ethical considerations. Their interdisciplinary team includes experts in machine learning, physics, policy, and product development, all collaborating to create beneficial AI technologies.  
-[Visit Anthropic](https://www.anthropic.com/?utm_source=chatgpt.com)
+Founded in 2021 by former OpenAI executives Dario and Daniela Amodei, **Anthropic** is an AI safety and research company based in San Francisco. The company focuses on developing reliable and interpretable AI systems with a strong emphasis on safety and ethical considerations. Their interdisciplinary team includes experts in machine learning, physics, policy, and product development, all collaborating to create beneficial AI technologies.
+[Visit Anthropic](https://www.anthropic.com/)
 
-One of Anthropic's flagship products is **Claude**, a large language model designed to assist with various tasks, including coding and complex problem-solving. Claude incorporates "Constitutional AI," a framework developed to align AI systems with human values—ensuring outputs are helpful, harmless, and honest.  
-[Learn more on Wikipedia](https://en.wikipedia.org/wiki/Anthropic?utm_source=chatgpt.com)
+**Latest Models (2025):**
 
-In recent developments, Anthropic is finalizing a $3.5 billion funding round, which would value the company at $61.5 billion. This investment underscores the growing confidence in Anthropic's approach to ethical AI development.  
-[Read the Reuters report](https://www.reuters.com/technology/artificial-intelligence/ai-startup-anthropic-finalizing-35-billion-funding-round-wsj-reports-2025-02-24/?utm_source=chatgpt.com)
+**Claude 4 Series:**
+- **Claude 4 Opus** (May 2025): Flagship model with exceptional reasoning and coding
+- **Claude Opus 4.1** (August 2025): 1M token context window, enhanced multimodal
+- **Claude 4 Sonnet**: Balanced performance and cost
+- **Constitutional AI**: Framework ensuring helpful, harmless, and honest outputs
+- **Strengths**: Best-in-class coding, safety-focused design, long context understanding
 
-**Getting Started with Anthropic:**  
-- [Explore Anthropic Docs](https://docs.anthropic.com/en/docs/welcome)  
-<!-- - [YouTube: Anthropic QuickStart Tutorial :AI Projects in Minutes](https://www.youtube.com/watch?v=-p6VKXDQ_Y8) -->
+**Model Context Protocol (MCP):**
+Anthropic pioneered the MCP standard, now adopted by OpenAI, Microsoft, and Google as the universal protocol for agent-system communication.
+
+**Recent Developments:**
+- $3.5B funding round valuing company at $61.5B
+- Claude Agent SDK for production-ready agentic applications
+- Industry-leading safety research and Constitutional AI framework
+
+**Getting Started with Anthropic:**
+- [Explore Anthropic Docs](https://docs.anthropic.com/en/docs/welcome)
+- [Claude Code & Agent SDK](https://www.anthropic.com/news/claude-code)
+
+---
+
+## Google - Gemini 2.5 (2025)
+
+**Google DeepMind** continues to push boundaries with Gemini 2.5, currently leading multimodal AI benchmarks.
+
+**Latest Models:**
+
+**Gemini 2.5 Pro** (March 2025):
+- **#1 on LMArena**: Top-performing reasoning model
+- **Multimodal Live API**: Real-time audio and video interactions
+- **Deep Think Mode**: Advanced reasoning for complex problems
+- **Context Window**: 1M tokens
+- **Native Capabilities**: Text-to-speech, image generation built-in
+
+**Gemini 2.5 Flash**:
+- Cost-effective, faster variant
+- Audio support for voice interactions
+- Ideal for high-volume applications
+
+**Gemini 2.0 Flash** (December 2024):
+- Enhanced spatial understanding
+- Native multimodal generation
+- Improved speed over 1.5 Flash
+
+[Visit Google AI](https://ai.google.dev/)
+[Gemini API Documentation](https://ai.google.dev/docs)
+
+---
+
+## OpenAI - GPT-5 & o-series (2025)
+
+**OpenAI** continues to lead with multiple model families for different use cases.
+
+**Latest Models:**
+
+**GPT-5 Family:**
+- Latest flagship models with enhanced capabilities
+- Improved multimodal understanding
+- Better reasoning and factual accuracy
+
+**GPT-4.1** (April 2025):
+- Enhanced multimodal performance
+- Available via API
+- Improved vision and code capabilities
+
+**GPT-4o**:
+- Omni-modal (text, vision, audio)
+- Real-time voice with emotional understanding
+- Widely deployed across ChatGPT and enterprise
+
+**o-series (Reasoning Models):**
+- **o3**: Latest reasoning model (2025)
+- Enhanced math, code, and complex problem-solving
+- Multi-step reasoning with verification
+
+[Visit OpenAI](https://openai.com/)
+[OpenAI Platform Docs](https://platform.openai.com/docs)
+
+---
+
+## Meta - LLaMA 4 (2025)
+
+**Meta AI** released LLaMA 4, marking a shift to natively multimodal open-source models.
+
+**Latest Models:**
+
+**LLaMA 4 Maverick:**
+- 17B active parameter MoE model
+- Best multimodal in its class
+- Beats GPT-4o and Gemini 2.0 Flash on benchmarks
+
+**LLaMA 4 Behemoth:**
+- Outperforms GPT-4.5, Claude Sonnet 3.7 on STEM
+- Up to 10M token context window
+- Natively multimodal from ground up
+
+**Open Source:**
+- Weights available for download
+- Apache 2.0 license
+- Ecosystem of fine-tuned variants
+
+[Meta AI](https://ai.meta.com/)
+[LLaMA 4 Blog](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)
+
+---
+
+## DeepSeek - V3 & R1 (2024-2025)
+
+**DeepSeek** is a Chinese AI startup that revolutionized AI economics with cost-efficient SOTA models.
+
+**Latest Models:**
+
+**DeepSeek-V3** (December 2024):
+- 671B total parameters (MoE)
+- Training cost: ~$6M
+- Excellent reasoning and coding
+- Open weights and architecture
+
+**DeepSeek-R1** (January 2025):
+- First open-source reasoning model
+- Trained via pure RL (no supervised fine-tuning)
+- Performance comparable to OpenAI o1
+- 96% cheaper to use
+- Training cost: $294K
+
+**DeepSeek-R1-Distill:**
+- Smaller distilled versions
+- Qwen-32B variant outperforms o1-mini
+- Democratizing reasoning capabilities
+
+**Impact:**
+Proved SOTA performance doesn't require massive budgets, accelerating global AI research.
+
+[DeepSeek Website](https://www.deepseek.com/)
+[DeepSeek-R1 Paper](https://arxiv.org/abs/2501.12948)
+[DeepSeek GitHub](https://github.com/deepseek-ai/)
+
+---
+
+## Mistral AI (2023-2025)
+
+Paris-based **Mistral AI** pioneered practical Mixture of Experts (MoE) in open-source models.
+
+**Models:**
+
+- **Mistral Large 2**: 123B parameters competing with proprietary models
+- **Mixtral 8x7B**: 47B total, 13B active - matches GPT-3.5
+- **Mixtral 8x22B**: Scaled-up MoE variant
+- **Mistral 7B**: Benchmark-setting 7B model
+
+[Mistral AI](https://mistral.ai/)
+[Mistral Docs](https://docs.mistral.ai/)
+
+---
+
+## Cohere
+
+**Cohere** provides enterprise-focused LLMs with strong retrieval and embedding capabilities.
+
+**Products:**
+- **Command R+**: Latest chat and instruction model
+- **Embed v3**: Multilingual embeddings
+- **Rerank**: Semantic reranking for search/RAG
+- **Coral**: Enterprise chat interface
+
+**Strengths:**
+- RAG-optimized models
+- Enterprise deployment options
+- Strong multilingual support
+
+[Cohere](https://cohere.com/)
+[Cohere Docs](https://docs.cohere.com/)
 
 ---
 
@@ -38,9 +203,321 @@ The framework streamlines every stage of the LLM application lifecycle—from pr
 Developers can also access extensive guides, tutorials, and community support through LangChain's GitHub repository, making it a versatile resource for creating intelligent systems.  
 [Visit LangChain on GitHub](https://github.com/langchain-ai/langchain?utm_source=chatgpt.com)
 
-**Getting Started with LangChain:**  
-- [Official Getting Started Guide](https://python.langchain.com/docs/introduction/?utm_source=chatgpt.com)  
+**Getting Started with LangChain:**
+- [Official Getting Started Guide](https://python.langchain.com/docs/introduction/?utm_source=chatgpt.com)
 <!-- - [YouTube: LangChain Explained in 13 Minutes | QuickStart Tutorial for Beginners](https://www.youtube.com/watch?v=aywZrzNaKjs) -->
+
+---
+
+# Agent Frameworks & Protocols (2024-2025)
+*Standardized protocols and frameworks for building agentic AI systems.*
+
+## Model Context Protocol (MCP)
+
+**MCP** is the universal standard for agent-system communication, often called "the HTTP for AI agents."
+
+**Key Features:**
+- Standardizes how LLMs communicate with external systems
+- Three-layer architecture: Client, Server, Transport
+- Tool discovery and capability detection
+- Secure communication with built-in authentication
+
+**Major Adoptions (2025):**
+- **Anthropic**: Pioneered and integrated across Claude products
+- **OpenAI** (March 2025): ChatGPT desktop, Agents SDK, Responses API
+- **Microsoft** (May 2025): Copilot Studio with enhanced features
+- **Google**: Vertex AI and Gemini API support
+- **12+ Major SDKs**: Including LangChain, LlamaIndex, CrewAI
+
+**Impact:**
+Solved fragmentation where every framework had different tool integration. Now one tool works across all platforms.
+
+[MCP Documentation](https://www.anthropic.com/mcp)
+[MCP GitHub](https://github.com/anthropics/mcp)
+
+---
+
+## Agent-to-Agent Protocol (A2A)
+
+**A2A**, released by LangChain in 2025, enables secure multi-agent collaboration.
+
+**Purpose:**
+- Inter-agent communication (unlike MCP which is agent-to-system)
+- Agent discovery and capability queries
+- Secure task handoffs and state sharing
+- Standardized coordination protocols
+
+**Use Cases:**
+- Complex multi-agent workflows
+- Specialized agent collaboration
+- Enterprise agent networks
+
+[A2A Documentation](https://www.langchain.com/)
+
+---
+
+## LlamaIndex
+
+**LlamaIndex** is the leading data-centric AI framework, specialized for RAG and knowledge-intensive applications.
+
+**Features:**
+- **Data Connectors**: 100+ integrations
+- **Agentic RAG**: Autonomous retrieval orchestration
+- **Workflows 1.0**: Production-ready data pipelines
+- **NotebookLlama**: Open-source NotebookLM alternative
+
+**Strengths:**
+- Best-in-class for document analysis
+- Excellent RAG capabilities
+- Strong community and documentation
+
+[LlamaIndex](https://www.llamaindex.ai/)
+[LlamaIndex Docs](https://docs.llamaindex.ai/)
+[GitHub](https://github.com/run-llama/llama_index)
+
+---
+
+## CrewAI
+
+**CrewAI** simplifies multi-agent collaboration with role-based design.
+
+**Features:**
+- Role-based agents (researcher, writer, analyst, etc.)
+- Built-in task delegation and orchestration
+- Sequential and parallel workflows
+- Easy multi-agent coordination
+
+**Use Cases:**
+- Content creation pipelines
+- Research automation
+- Complex multi-step tasks
+
+[CrewAI](https://www.crewai.com/)
+[CrewAI Docs](https://docs.crewai.com/)
+
+---
+
+## AutoGen (Microsoft)
+
+**AutoGen** is Microsoft's framework for production multi-agent systems.
+
+**Features:**
+- Conversational agent framework
+- Code execution and verification
+- Human-in-the-loop capabilities
+- Enterprise-grade deployment
+
+**Strengths:**
+- Strong in regulated industries
+- Production-tested at Microsoft
+- Comprehensive documentation
+
+[AutoGen](https://microsoft.github.io/autogen/)
+[AutoGen GitHub](https://github.com/microsoft/autogen)
+
+---
+
+# RAG Tools & Vector Databases (2024-2025)
+*Infrastructure and tools for retrieval-augmented generation.*
+
+## Vector Databases
+
+### Pinecone
+
+**Pinecone** is a managed vector database optimized for production RAG.
+
+**Features:**
+- Fully managed, serverless
+- Sub-100ms query latency
+- Hybrid search (dense + sparse)
+- Automatic scaling
+
+**Best For:** Production applications requiring high performance and scalability
+
+[Pinecone](https://www.pinecone.io/)
+[Pinecone Docs](https://docs.pinecone.io/)
+
+---
+
+### Weaviate
+
+**Weaviate** is an open-source vector database with multimodal support.
+
+**Features:**
+- Native multimodal search (text, images)
+- Hybrid search built-in
+- GraphQL API
+- Kubernetes-native
+
+**Best For:** Open-source projects, multimodal applications
+
+[Weaviate](https://weaviate.io/)
+[Weaviate Docs](https://weaviate.io/developers/weaviate)
+
+---
+
+### Qdrant
+
+**Qdrant** is a high-performance vector search engine written in Rust.
+
+**Features:**
+- Rust-based for speed
+- Rich filtering capabilities
+- On-premise and cloud options
+- Excellent Python SDK
+
+**Best For:** Performance-critical applications
+
+[Qdrant](https://qdrant.tech/)
+[Qdrant Docs](https://qdrant.tech/documentation/)
+
+---
+
+### Chroma
+
+**Chroma** is the developer-friendly vector database.
+
+**Features:**
+- Embedded option (no server needed)
+- Simple API
+- Great for prototyping
+- Easy integration with LangChain/LlamaIndex
+
+**Best For:** Development, prototyping, small-scale deployments
+
+[Chroma](https://www.trychroma.com/)
+[Chroma Docs](https://docs.trychroma.com/)
+
+---
+
+## GraphRAG (Microsoft)
+
+**GraphRAG** builds knowledge graphs from documents for advanced retrieval.
+
+**Key Innovation:**
+- Converts documents into knowledge graphs
+- Enables multi-hop reasoning
+- Community detection for hierarchical summaries
+- Better global question answering
+
+**Performance:**
+- Significant improvements on complex questions
+- Reduced hallucinations
+- Better source attribution
+
+[GraphRAG GitHub](https://github.com/microsoft/graphrag)
+
+---
+
+## RAG Evaluation - RAGAS
+
+**RAGAS** provides reference-free metrics for RAG system evaluation.
+
+**Metrics:**
+- **Faithfulness**: Factual consistency with sources
+- **Answer Relevancy**: Addressing the question
+- **Context Recall**: Coverage of information
+- **Context Precision**: Ranking quality
+
+**Advantage:** No need for ground-truth annotations
+
+[RAGAS](https://docs.ragas.io/)
+[RAGAS GitHub](https://github.com/explodinggradients/ragas)
+
+---
+
+## Cohere Rerank
+
+**Cohere Rerank** dramatically improves retrieval relevance through semantic reranking.
+
+**How It Works:**
+- Takes initial retrieval results
+- Uses cross-encoder for precise relevance scoring
+- Reorders results by true semantic similarity
+
+**Impact:** 15-30% improvement in retrieval precision
+
+[Cohere Rerank](https://cohere.com/rerank)
+
+---
+
+# Fine-Tuning & PEFT Tools (2024-2025)
+*Tools for parameter-efficient fine-tuning and model customization.*
+
+## PEFT by Hugging Face
+
+**PEFT** is the unified library for parameter-efficient fine-tuning methods.
+
+**Supported Methods:**
+- **LoRA**: Low-Rank Adaptation (gold standard)
+- **QLoRA**: 4-bit quantized LoRA
+- **PiSSA**: Principal singular value initialization
+- **DoRA**: Weight-decomposed adaptation
+- And many more
+
+**Features:**
+- Unified API across all methods
+- Integration with Transformers
+- Easy adapter management
+- Thousands of pre-trained adapters on Hugging Face Hub
+
+[PEFT GitHub](https://github.com/huggingface/peft)
+[PEFT Docs](https://huggingface.co/docs/peft/)
+
+---
+
+## Axolotl
+
+**Axolotl** provides configuration-based fine-tuning for any LLM.
+
+**Features:**
+- YAML-based configuration
+- Supports all major PEFT methods
+- QLoRA, LoRA, full fine-tuning
+- Production-ready pipelines
+
+**Strengths:**
+- No code required
+- Best practices built-in
+- Extensive model support
+
+[Axolotl GitHub](https://github.com/OpenAccess-AI-Collective/axolotl)
+
+---
+
+## TRL (Transformer Reinforcement Learning)
+
+**TRL** by Hugging Face combines PEFT with RLHF and DPO.
+
+**Features:**
+- RLHF (Reinforcement Learning from Human Feedback)
+- DPO (Direct Preference Optimization)
+- PEFT integration
+- Instruction fine-tuning pipelines
+
+**Use Cases:**
+- Alignment and safety
+- Instruction following
+- Preference learning
+
+[TRL GitHub](https://github.com/huggingface/trl)
+[TRL Docs](https://huggingface.co/docs/trl/)
+
+---
+
+## Unsloth
+
+**Unsloth** makes fine-tuning 2-5× faster with lower memory.
+
+**Features:**
+- Optimized kernels for LoRA/QLoRA
+- 2-5× speedup over standard PEFT
+- 50% memory reduction
+- Free and open-source
+
+**Impact:** Train larger models or train faster on same hardware
+
+[Unsloth GitHub](https://github.com/unslothai/unsloth)
 
 ---
 
