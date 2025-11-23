@@ -41,6 +41,108 @@ Discover our favorite AI tools spanning every layer of AI application developmen
 
 ---
 
+## :rocket: Latest State-of-the-Art Models & Technologies (2024-2025)
+
+Stay updated with the cutting-edge developments in Generative AI:
+
+### Foundation Models (Late 2025)
+
+#### **Google Gemini 2.5**
+- **Gemini 2.5 Pro**: Leading the field in reasoning benchmarks, debuted at #1 on LMArena with enhanced multimodal capabilities
+- **Gemini 2.5 Flash**: Smaller, cost-effective model with audio support and faster processing
+- **Context Window**: Up to 1M tokens for analyzing entire codebases
+- **Deep Think Mode**: Advanced reasoning for complex problem-solving
+- [Learn more](https://blog.google/technology/ai/google-gemini-ai/)
+
+#### **Anthropic Claude 4**
+- **Claude 4 Opus & Sonnet**: Latest generation released May 2025
+- **Claude Opus 4.1**: August 2025 upgrade with 1M token context window
+- **Strengths**: Exceptional coding performance, advanced reasoning, safety-focused design
+- **Context Window**: 1M tokens
+- [Learn more](https://www.anthropic.com/)
+
+#### **OpenAI GPT Series**
+- **GPT-5 Family**: Latest flagship models with enhanced capabilities
+- **GPT-4.1**: Introduced via API in April 2025 with improved multimodal performance
+- **GPT-4o**: Widely used for multimodal applications (vision, audio, text)
+- [Learn more](https://openai.com/)
+
+#### **Meta LLaMA 4** (2025)
+- **LLaMA 4 Maverick**: 17B active parameter MoE model, best multimodal in its class
+- **LLaMA 4 Behemoth**: Outperforms GPT-4.5, Claude Sonnet 3.7 on STEM benchmarks
+- **Context Window**: Up to 10M tokens - ideal for extensive research and documentation
+- **Natively Multimodal**: Built from the ground up for text, images, and structured data
+- [Learn more](https://ai.meta.com/blog/llama-4-multimodal-intelligence/)
+
+### Reasoning Models (2025)
+
+#### **DeepSeek-R1 Series**
+- **Innovation**: First major reasoning model trained purely via RL without supervised fine-tuning
+- **Performance**: Comparable to OpenAI o1 on math, code, and reasoning tasks
+- **Cost**: 96% cheaper than o1 (~$294K training cost vs. $6M base model)
+- **R1-0528**: Latest version approaching o3 and Gemini 2.5 Pro performance
+- **Open Source**: Fully open weights and training methodology
+- [Paper](https://arxiv.org/abs/2501.12948) | [GitHub](https://github.com/deepseek-ai/DeepSeek-R1)
+
+#### **OpenAI o3**
+- Released in response to DeepSeek R1
+- Advanced reasoning capabilities for complex problem-solving
+- [Learn more](https://openai.com/)
+
+### Advanced RAG Techniques (2024-2025)
+
+- **GraphRAG** (Microsoft): Knowledge graph-based retrieval addressing semantic gaps
+- **SELF-RAG**: Self-reflective mechanism for improved factual accuracy
+- **SAM-RAG**: Multimodal RAG with dynamic filtering and evidence verification
+- **Adaptive Retrieval**: Query-complexity-aware retrieval mechanisms
+- **Hybrid Indexing**: Combining dense embeddings with sparse methods (BM25)
+- **RAGAS Framework**: Reference-free metrics for RAG pipeline evaluation
+- [RAG State-of-the-Art Guide](https://www.chitika.com/retrieval-augmented-generation-rag-the-definitive-guide-2025/)
+
+### AI Agent Frameworks (2025)
+
+#### **Model Context Protocol (MCP)**
+- **Industry Standard**: The "HTTP for AI agents" - universal protocol for LLM-system communication
+- **Major Adoptions**: OpenAI (March 2025), Microsoft Copilot Studio (May 2025), Google Vertex AI
+- **12+ Major SDKs**: Claude Agent SDK, OpenAI Agents SDK, and more with MCP support
+- [Learn more](https://www.anthropic.com/mcp)
+
+#### **Agent-to-Agent Protocol (A2A)**
+- **Purpose**: Enable secure, effective multi-agent collaboration
+- **Released by**: LangChain (open-source)
+- **Focus**: Inter-agent communication standards
+- [Learn more](https://www.langchain.com/)
+
+#### **Leading Frameworks**
+- **LangChain & LangGraph**: Orchestration engine with graph-based workflows for deterministic multi-agent systems
+- **LlamaIndex**: Data-centric AI framework, optimized for RAG and data-aware applications
+- **CrewAI**: Specialized for collaborative multi-agent workflows
+- **AutoGen**: Production-ready multi-agent systems
+- [Framework Comparison](https://clickhouse.com/blog/how-to-build-ai-agents-mcp-12-frameworks)
+
+### Parameter-Efficient Fine-Tuning (2025)
+
+- **LoRA**: Gold standard for efficient model customization, broad ecosystem support
+- **QLoRA**: 4-bit quantization enabling 65B model fine-tuning on single 48GB GPU
+- **PiSSA**: Principal singular value initialization for faster convergence
+- **Performance**: 95% of full fine-tuning results with <1% parameters trained
+- [PEFT Guide](https://huggingface.co/blog/samuellimabraz/peft-methods)
+
+### Multimodal Models (2024-2025)
+
+- **Gemini 2.5 Pro**: Multimodal Live API with real-time audio/video interactions
+- **LLaMA 4 Maverick**: Best-in-class multimodal performance
+- **GPT-4o**: Strong vision and audio capabilities
+- **MiniCPM-V 8B**: Outperforms GPT-4V on 11 benchmarks, runs on mobile devices, 30+ languages
+- [Vision Models Comparison](https://www.datacamp.com/blog/top-vision-language-models)
+
+### Key Resources
+- [Latest Research Papers](https://github.com/aishwaryanr/awesome-generative-ai-guide/tree/main/research_updates/2025_papers)
+- [RAG Research Updates](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/research_updates/rag_research_table.md)
+- [Survey Papers Collection](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/research_updates/survey_papers.md)
+
+---
+
 
 ## :mortar_board: Courses
 
