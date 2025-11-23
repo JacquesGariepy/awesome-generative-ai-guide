@@ -37,6 +37,7 @@ Discover our favorite AI tools spanning every layer of AI application developmen
   - [5-day LLM agents roadmap](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_roadmap.md)
   - [Agents 101 guide](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
   - [Introduction to MM LLMs](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/mm_llms_guide.md)
+  - [MultiLoRA: Efficient Multi-Adapter Inference Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/multilora_guide.md)
   - [LLM Lingo Series: Commonly used LLM terms and their easy-to-understand definitions](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/llm_lingo)
 
 ---
